@@ -1,0 +1,28 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+pubspec.lock
+
+# Firebase — NEVER commit these
+google-services.json
+GoogleService-Info.plist
+lib/firebase_options.dart
+serviceAccountKey.json
+*.json
+
+# Migration
+__pycache__/
+*.pyc
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
